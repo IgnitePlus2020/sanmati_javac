@@ -10,11 +10,10 @@ public class substring {
         System.out.println("Enter another string");
         String str2= in.nextLine();
         int j=0;
-        for (int i = 0; i < str2.length() && j < str1.length(); i++){
-            if (str1.charAt(j) == str2.charAt(i)){
-                j++;}}
-
-        if(j==str1.length())
-            System.out.println("Substring");
+        for (int i = 0; i < str2.length() && j < str1.length(); i++)
+            if (str1.charAt(j) == str2.charAt(i))
+                j++;
+            if(j==str1.length())
+                System.out.println("Substring");
     }
 }
